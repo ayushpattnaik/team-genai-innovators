@@ -1,4 +1,6 @@
-App Link : https://magnetic-signer-466310-b9.web.app/
+Flutter App Link : https://magnetic-signer-466310-b9.web.app/
+
+Backend Link (Agents) : https://city-pulse-backend-service-129861535450.asia-south1.run.app
 
 # 🏙️ Agentic Pulse City App
 
