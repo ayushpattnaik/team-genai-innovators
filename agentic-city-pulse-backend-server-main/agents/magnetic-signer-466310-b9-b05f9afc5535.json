@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "magnetic-signer-466310-b9",
+  "private_key_id": "b05f9afc553543b1c841c20a76ff634ac5296156",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/T2DY2a5eF9g2\nklEYL3rGra7og/X8QWtAul6NLxPo0SXR96ndmvnSOAu9fmSZ4RB+7XqIC4svITJj\nvmD+f1DCfuNkpRaNZhNAlbwzp5iF4OsqqMD8Uzuwbh+hm1axK4LUBvnMrIM9qIDz\nRmvoCmn/gewCluQXWzjBqu73jPVM2CPjX1o5IAj2w4vMLIMpvk5ALsdOm7S6gT7u\npg1+A3wGqPsP4LXHk8iAQN3u7n7eF0Y0TQd4kbaqy0llZ7wKHa5bj9tp7dM7g3E9\nEGIvS22f8tDk047kNRpBPIea79qUcatdD5F+ezjaZCkNPBi5rsjBr+HaUQE9t6Wo\nzAaLgtKhAgMBAAECggEADYwAquJhOUr9dcHPKcQE8OgwHElp5Aq63krEMsGsan5S\n7AcaWXWlrpfm5ux6EbZw/VfyJwuQN85lO9BpnGPmE1u6XPBexDT/9IEV4l+CCqrm\nZC8ueT+omKH3rfEqxqFy4nI7Ap4NrhJOTUvFjNkd7+iijn1iWfAM+RPSV6e84AvH\nx4ss5glSLvlf4vhySvJ+0TPVCR7otZed8fLaeFt2G63K0G0xd3tYPdO6A6QtSsmY\nlSyKswfuaY21WHcvf5WcGPnUDXIzQQc5AIcdV6JeB8kyb4jv4HstY+pM/H3MB3LO\nSTB97Cf39sq5V/7M9eTtZ7t44Eve5x6/zHDVax9fRQKBgQDh5hDCGYnE3rZYFQTa\npznxRgqD7jNb42aD+s+ax+VYIm4ExNsbmSp9gRXjge7p8sLo3/dzwX9f791eBGiK\nBCBp1eqp1F8Y0m6vavKzYyr0d804m1luIjY+ySHWPymF/aBJDyxBKVdIUeHRmukp\n4L72PBtsvOKVDIpf6AI0cg3QxQKBgQDYzWnuUYaBMuYyAAj8kjH2QHP9J/No6BOn\nTAAErRovIxvA86Dy1UqRgAEFdzwEWfra6/xUV5AILZ8VJFC3Gq73glNmAIFvv3Rh\noR/T2n/JZcB+246ZNjjXWrgbdpGNNvd2IsMpPbc4MKahtk4Uv24MKKnsg+zfu4hE\n5r9R39KgLQKBgH2Tt50vNTcL17H/fUNP0xYdKZtNv59FOqgDtYUFuqjT+vULugIN\nk2FRcSmYAYhsO43Zc2YWGwjp/tVU/gg7YwlysZDXTkYuNPmvKlwutKJSNvNQ6NYg\njqc4iGbhleO2qnPyy1ct9Cdv3Wj4BMYS+hVINLauCgdxgTrvbspY3PVBAoGBAJfG\ndjpY6IjaUTz/uUrYLhHu3USFC2qNzfR4yCp95K7LLUrPRAW8PA/QRObGqkWBmJRa\nULPa+QJArfXnDnqhO4wauLfX8sWAisEuQ1HUzVD44uHsYs/vnatl3y2avBrYODWD\n8IyWoAW+SWk8bz0nJqtsbEkfslyOtL9HqvhucM2hAoGAMjJEKXW5+CjTqH4RLnFn\nxsrn9RGYTx8pfBl8KGYYLsCazMx79KZfUCHisc8k8tZ8VYkM+slJKQGBMo+eFStm\n+wUsk6Km5kVOr+qGoZLrwCWWXJs5sFhAslA/KoAGr3x8edX1winxc1yOrYk1Kz/P\nsM0fN8VF//znnAFIV8W/LVU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "genai-innovators@magnetic-signer-466310-b9.iam.gserviceaccount.com",
+  "client_id": "100099057138345143767",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/genai-innovators%40magnetic-signer-466310-b9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

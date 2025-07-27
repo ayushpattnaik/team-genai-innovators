@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civic Issue Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-landmark"></i> Civic Issue Analysis</h1>
+            <p>Upload files or enter text to analyze civic issues using AI</p>
+        </header>
+
+        <main>
+            <!-- File Upload Section -->
+            <section class="upload-section">
+                <h2><i class="fas fa-upload"></i> File Upload</h2>
+                <div class="upload-area">
+                    <input type="file" id="fileInput" multiple accept=".txt,.pdf,.png,.jpg,.jpeg,.gif,.bmp,.mp3,.wav,.m4a">
+                    <div class="upload-content">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Drag and drop files here or click to browse</p>
+                        <p class="file-types">Supported: Images, Text, Audio files</p>
+                    </div>
+                </div>
+                <div class="upload-actions">
+                    <button id="uploadBtn" class="upload-btn" disabled>
+                        <i class="fas fa-analyze"></i> Analyze Files
+                    </button>
+                    <button id="clearBtn" class="clear-btn">
+                        <i class="fas fa-trash"></i> Clear All
+                    </button>
+                </div>
+            </section>
+
+            <!-- Text Input Section -->
+            <section class="text-input-section">
+                <h2><i class="fas fa-keyboard"></i> Text Input</h2>
+                <div class="text-input-container">
+                    <textarea 
+                        id="textInput" 
+                        placeholder="Describe the civic issue you want to analyze..."
+                        rows="6"
+                    ></textarea>
+                    <div class="text-input-actions">
+                        <button id="analyzeTextBtn" class="analyze-text-btn" disabled>
+                            <i class="fas fa-search"></i> Analyze Text
+                        </button>
+                        <button id="clearTextBtn" class="clear-text-btn">
+                            <i class="fas fa-eraser"></i> Clear Text
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loading Section -->
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing...</p>
+            </div>
+
+            <!-- City Pulse Section -->
+            <section class="city-pulse-section">
+                <h2><i class="fas fa-pulse"></i> City Pulse Analysis</h2>
+                <div class="city-pulse-container">
+                    <div class="city-pulse-input">
+                        <input 
+                            type="text" 
+                            id="cityPulseQuery" 
+                            placeholder="Enter city issue query (e.g., 'flooding in downtown')"
+                            class="city-pulse-query-input"
+                        >
+                        <div class="city-pulse-options">
+                            <label>
+                                <input type="checkbox" id="includeReddit" checked>
+                                Include Reddit
+                            </label>
+                            <label>
+                                <input type="checkbox" id="includeTwitter" checked>
+                                Include Twitter
+                            </label>
+                        </div>
+                        <button id="analyzeCityPulseBtn" class="analyze-city-pulse-btn">
+                            <i class="fas fa-search"></i> Analyze City Pulse
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <div id="result"></div>
+            </section>
+        </main>
+
+        <!-- Notification -->
+        <div id="notification" class="notification" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
